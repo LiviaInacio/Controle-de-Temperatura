@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Temperatura</title>
+</head>
+<body>
+  
+  <h1 class="title-principal">Controle de Temperatura</h1>
+ 
+    <div class="central">
+      <div class="caixa">
+        <button class="button-1" id="buttonInsert"><h3>Inserir Dados</h3></button> 
+        <dialog id="pop-up">
+        <!-- Botão fechar janela-->
+          <button class="close-button" id="closeInsert">X</button>
+          <form action="" method="get" class="form-general">
+            <div class="form-general">
+              <label for="date">Insira a data</label>
+              <input type="date" name="date" id="date" required />
+            </div>
+            <div class="form-general">
+              <label for="number">Temperatura Atual </label>
+              <input type="number" step="0.01" name="atual" id="atual" required />
+            </div>
+            <div class="form-general">
+              <label for="maxima">Temperatura Máxima</label>
+              <input type="number" step="0.01" name="maxima" id="maxima" required />
+            </div>
+            <div class="form-general">
+              <label for="number">Temperatura Mínima </label>
+              <input type="number" step="0.01" name="minima" id="minima" required />
+            </div>
+            <div class="form-general">
+              <input type="submit" value="Enviar" />
+            </div>
+          </form>
+        </dialog>
+      </div>
+      <div class="caixa">
+        <button class="button-2"><h3>Relatórios</h3></button>
+      </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

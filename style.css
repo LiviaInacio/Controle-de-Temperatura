@@ -1,0 +1,79 @@
+body{
+  heigth: auto;
+  width: 100%;
+  background-color:	#bdbdbd;
+}
+
+.title-principal{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.central{
+ heigth: auto;
+ margin-left: 30%;
+ margin-right: 30%;
+ background-color: none;
+ border-radius: 20px;
+ box-shadow: 
+}
+
+
+.caixa{
+  text-align: center;
+  paddin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.button-1{
+  color: black;
+  background-color: white;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.button-2{
+  color: black;
+  background-color: white;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.close-button{
+  color: red;
+  cursor: pointer;
+}
+
+:modal{
+  background-color:#bdbdbd;
+  border-color: #bdbdbd;
+  border-radius: 10px;
+}
+
+
+form.form-general {
+  display: table;
+}
+
+div.form-general {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: #bdbdbd
+}
+
+label {
+  padding-right: 10px;
+}
